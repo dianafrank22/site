@@ -1,0 +1,23 @@
+ h1,
+ h3{
+  margin-left: 3%;
+ }
+
+
+ .image_project{
+ 	float: left;
+ 	width: inherit;
+ 	height: 230px;
+ 	margin-right: 4%;
+ 	margin-left: 6%;
+ 	margin-top: 3%;
+ 	margin-bottom: 3%;
+	border: black solid 2px;
+ }
+
+ div.wrapper{
+  margin-right: 5%;
+  margin-left: 5%;
+ }
+
+

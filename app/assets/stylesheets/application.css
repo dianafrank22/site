@@ -1,0 +1,122 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ /*layout CSS*/
+
+ body{
+  min-height: 150%;
+  font-family: 'Quicksand', sans-serif;
+ }
+
+
+header{
+  font-family: 'Muli', sans-serif;;
+  font-style: bold;
+  font-size: 3em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+
+img.header{
+  height: inherit;
+  width: 7%;
+  margin-right: 45px;
+}
+
+nav{
+  font-family: 'Quicksand', sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: rgb(47,22,24) .5px solid;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+a.nav{
+  color: black;
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: 700;
+}
+
+a.nav:active{
+  color: #a9acb3;
+  border-bottom: blue;
+}
+
+footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  text-align: center;
+  border-top: solid .5px rgb(47,22,24);
+  margin-top: 40px;
+}
+
+/*resume CSS*/
+
+img.resume{
+  width: 80%;
+  height: auto;
+  border: black solid .2px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button.download{
+  background-color: white; 
+  border: solid 2px black;
+  border-radius: 3px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button.download:hover{
+  background-color: #b6b6b6;
+}
+
+a.download{
+  text-decoration: none;
+}
+
+/*homepage css*/
+img.homepage-background{
+  width: 100%;
+  height: inherit;
+}
+
+h2.homepage-caption{
+  font: white;
+  /*display over background*/
+}
+
+

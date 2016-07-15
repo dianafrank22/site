@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Diana Frank Development</title>
+  <link rel="stylesheet" type="text/css" href="/assets/projects.css" />
+
+
+</head>
+
+<body>
+
+<!-- @TODO change this to be responsive grid, opens modal with dynamic info -->
+<!-- @TODO change fonts -->
+
+<h1> projects </h1>
+<h3> click to one to view more in depth... </h3>
+<div class = wrapper>
+    <% @project.each do |project| %>
+    <a href ='/projects/<%=project.id%>'/>
+     <div class="project_image"> 
+        <img class="image_project" src= "<%= project.image %>" />
+     </div>
+        </a>
+    <% end %>
+  </div>
+<!-- </div>
+ -->
+
+<div class="space">
+
+</div>
+
+
+
+
+
+
+
+
+
+
+       
+
+  </body>
+</html>

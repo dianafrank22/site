@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bio</title>
+	<link rel="stylesheet" type="text/css" href="/assets/about.css" />
+</head>
+<body>
+
+<h2 class="about"> About me</h2>
+<p class="about-info"> Full Stack Developer. Graduate of General Assembly's WDI March '16. B.S. in Psychology, and Gender Studies from Tulane University, May '15. Traveler. Mom to two great puppies. New Yorker. Francophone. Nerd.</p>
+
+<div class="space"></div>
+
+
+<h3>Check out some stuff I've done </h3>
+
+<!-- change this to be style of projects -->
+<div class = project-container>
+<div class="wrapper">
+	<% @pic.each do |pic| %>
+		<img class="project-image" src="<%= pic.image %>"/>
+				<div class="pic-caption">
+				<h3 class ="project-description"><%= pic.caption %></h3>
+				</div>
+			
+	<%end%>
+</div>
+</div>
+
+<div class="space"></div>
+
+
+
+
+
+</body>
+</html>

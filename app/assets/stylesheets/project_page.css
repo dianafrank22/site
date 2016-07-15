@@ -1,0 +1,37 @@
+.p-image{
+	 width: 50%;
+  	height: inherit;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  display: inline;
+  position: relative;
+	float: left;
+	margin-left: 30px;
+	margin-top: 2%;
+}
+
+div.info{
+	margin-left: 50px;
+	width: 30%;
+	float: left;
+}
+
+p{
+	margin-left: 3%;
+}
+
+h2{
+	margin-left: 30px;
+}
+
+div.more{
+	width: 70%;
+	/*margin-top: 4%;*/
+	float: left;
+	margin-bottom: 30px	;
+}
+
+h4.project-url{
+	margin-left: 3%;
+	font-weight: 400;
+}
