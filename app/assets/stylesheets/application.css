@@ -46,25 +46,32 @@ nav{
   font-family: 'Quicksand', sans-serif;
   margin-right: auto;
   margin-left: auto;
-  border-bottom: rgb(47,22,24) .5px solid;
+  border-bottom: white .5px solid;
   text-align: center;
   padding: 10px;
   margin-top: 10px;
 }
 
+
+img.main-logo{
+  height: 25%;
+  width: inherit;
+}
+
+
 a.nav{
-  color: black;
+  color: white;
   text-decoration: none;
   margin-right: auto;
   margin-left: auto;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
   font-weight: 700;
 }
 
 a.nav:active{
-  color: #a9acb3;
-  border-bottom: blue;
+  color: #83A7AD;
+  border-bottom: #83A7AD;
 }
 
 footer {
@@ -78,53 +85,16 @@ footer {
   margin-top: 40px;
 }
 
-/*resume CSS*/
-
-img.resume{
-  width: 80%;
-  height: auto;
-  border: black solid .2px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-button.download{
-  background-color: white; 
-  border: solid 2px black;
-  border-radius: 3px;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  display: block;
-  font-size: 16px;
-  margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-button.download:hover{
-  background-color: #b6b6b6;
-}
-
-a.download{
-  text-decoration: none;
-}
 
 /*homepage css*/
-img.homepage-background{
-  width: 100%;
-  height: inherit;
-  position: absolute;
-}
 
-div.homepage-background{
- position: fixed;
-  min-height: 150%;
-  width: 100%;
-  height: 200%;
-  background-image: url("/assets/background.jpg");
+.homepage-background{
+ position: relative;
+  width: 100vw;
+  height: 100%;
+  background-image: url("/assets/background2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -135,9 +105,6 @@ h2.homepage-caption{
   font-size: 4em;
   margin-left: 20%;
   margin-top: 10%;
-
-/*  margin-right: auto;
-*/  /*font-style: italic;*/
 }
 
 

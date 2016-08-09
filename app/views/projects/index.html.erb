@@ -15,16 +15,16 @@
 <!-- @TODO change fonts -->
 
 <h1> projects </h1>
-<h3> click to one to view more in depth... </h3>
-<div class = wrapper>
-    <% @project.each do |project| %>
-    <a href ='/projects/<%=project.id%>'/>
-     <div class="project_image"> 
-        <img class="image_project" src= "<%= project.image %>" />
-     </div>
-        </a>
-    <% end %>
-  </div>
+
+ <% @project.each do |project| %>
+<div class="row">
+<div class="six columns"><%= project.name %></div>
+<div class="six columns"><img class="image_project" src= "<%= project.image %>" />
+</div>
+<%end%>
+</div>
+
+
 <!-- </div>
  -->
 

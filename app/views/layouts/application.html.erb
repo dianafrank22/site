@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link rel="shortcut icon" type="image/x-icon" href="../../assets/logo.png">
   <link href="https://fonts.googleapis.com/css?family=Muli|Quicksand" rel="stylesheet"> 
   <link href='https://fonts.googleapis.com/css?family=Oxygen|Cuprum:700italic|Karla:400,700italic' rel='stylesheet' type='text/css'>
 </head>
@@ -13,15 +14,16 @@
   <!-- Logo, top nav bar, with black logo above, line slider? -->
 
   <header>
-<img class="header" src = "../assets/logo.png"/>
+<!-- <img class="header" src = "../assets/logo.png"/> -->
 
   </header>
 
   <nav> 
   <span>
-<a class="nav" href="/"> Home </a>
+<!-- <a class="nav" href="/"> Home </a> -->
 <a class="nav" href="/bio"> Bio</a>
 <a class="nav" href ="/portfolio"> Work </a>
+<a class="nav" href="/"> <img class="main-logo" src="../assets/logo.png"/></a>
 <a class="nav" href="/resume"> Resume </a>
 <a class="nav" href="/contact"> Contact</a>
 </span>

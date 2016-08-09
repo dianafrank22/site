@@ -84,3 +84,29 @@ img.project-image:hover{
 
  }
 
+
+nav{
+  font-family: 'Quicksand', sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: black .5px solid;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+a.nav{
+  color: black;
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+  font-weight: 700;
+}
+
+img.logo{
+height: 25%;
+ width: inherit;
+}
+
